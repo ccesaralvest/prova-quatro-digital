@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prova Quatro Digital</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Caio Cesar">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Conteúdo e as respostas da prova Quatro Digital">
+    <!-- ESTILOS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img class="img-responsive" src="assets/img/logo_wp.png" alt="Logo Quatro Digital"></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Topo</a></li>
+                    <li><a href="#html">Html</a></li>
+                    <li><a href="#css">CSS</a></li>
+                    <li><a href="#js">JS</a></li>
+                    <li><a href="#sobre">Sobre Mim</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Header com a apresentacao -->
+    <header class="text-center bloco">
+        <section id="apresentacao">
+            <h1>Olá Pessoal !!!</h1>
+            <h2>Preferi fazer uma coisa mais legal, espero que não se importem ;)</h2>
+            <a href="prova.html">
+                <button class="btn btn-default">
+                   Se preferirem podem clicar aqui e imprimir ou salvar como PDF
+                </button>
+            </a>
+            <h3><strong>Caio Cesar Alves Timoteo</strong></h3>
+        </section>
+    </header>
+    <!-- Fim Header com a apresentacao -->
+
+    <!-- Secao do HTML -->
+    <section id="html" class="text-center secao container">
+        <h1>HTML</h1>
+        <hr>
+        <section class="questao">
+            <ul>
+                <!-- Primeira questao -->
+                <li class="pergunta">1- Crie uma tabela com um cabeçalho/título “nome” e insira dois valores “Maria” e “João”</li>
+                <!-- Resposta -->
+                <li class="panel panel-default">
+                    <table class="table table-striped table-bordered table-hover">
+                        <thead>
+                            <tr>
+                                <th>Nome</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Maria</td>
+                            </tr>
+                            <tr>
+                                <td>João</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </li>
+                <hr>
+                <!-- Segunda questao -->
+                <li class="pergunta">2- Como eu melhoro a posição do meu site nos buscadores utilizando apenas HTML?</li>
+                <!-- Resposta -->
+                <li>
+                    <p><strong>Resposta: </strong>Um site sendo programado semanticamente já fará com que ele seja melhor posicionado. O HTML5 nos trouxe novas TAGS, que vieram para ajudar tanto a parte semântica quanto a accessibilidade de um site. As Tags META também são muito importantes.</p>
+                </li>
+                <hr>
+                <!-- Terceira questao -->
+                <li class="pergunta">3- Existe diferença entre < span > e < p >, sim ou não e porque?</li>
+                <!-- Resposta -->
+                <li>
+                    <p><strong>Resposta: </strong>Sim, a TAG <b>< span ></b> não tem significado semântico nenhum, a TAG <b>< p ></b> é semanticamente tratada como um paragrafo.</p>
+                </li>
+                <hr>
+                  <!-- Quarta questao -->
+                <li class="pergunta">4- O que acontece quando um browser mais antigo não consegue interpretar uma TAG HTML5 ? Isso impacta na usabilidade do seu site ?</li>
+                <!-- Resposta -->
+                <li>
+                    <p><strong>Resposta:</strong> A maioria das vezes ele substitui por algo que ele entenda ou simplismente ignora. Isso afetará diretamente a usabilidade da aplicação, uma vez que você poderá perder o trabalho estrutural e semantico que você teve. Para resolver isso podemos pensar em <strong>Progressive Enhancement </strong> e ou seguir as diretrizes da <strong>WCAG</strong>. Tudo depende do projeto.</p>
+                </li>
+                <hr>
+            </ul>
+        </section>
+    </section>
+    <!-- Fim Secao do HTML -->
+
+    <!-- Secao do CSS -->
+    <section id="css" class="text-center secao container">
+        <h1>CSS</h1>
+        <hr>
+        <section class="questao">
+            <ul>
+                <!-- Primeira questao -->
+                <li class="pergunta">1- Cite 2 situações em que se aplica o clear:both; </li>
+                <!-- Resposta -->
+                <li>
+                    <p>Tendo em vista que o CLEAR "limpa" a área do elemento que esta flutuando, podemos utilizar para limpar a áera da direita, esquerta ou de ambos os lados (both).</p>
+                    <p><strong>Caso 1:</strong> limpar os lados de uma imagem que flutua ao lado de um texto, deixando assim ela sem nada dos lados e o texto ficando abaixo da imagem</p>
+                    <p><strong>Caso 2:</strong> Quando você flutua varias imagens e deseja que uma delas fique como principal acima das outras</p>
+                </li>
+                <hr>
+                <!-- Segunda questao -->
+                <li class="pergunta">2- A estampa de uma camiseta apresentava o seguinte trecho de código:
+                </br>.iceberg{position: fixed;}
+                </br>.titanic{float: none;}
+                </br>Você concorda com este estilo? Sim ou não e porque?
+                </li>
+                <!-- Resposta -->
+                <li>
+                    <p><strong>Resposta: </strong>Textualmente eu acho legal rsrsrs, mas o código ficaria legal se fixar o Titanic e não flotar" o Iceberg</p>
+                </li>
+                <hr>
+                <!-- Terceira questao -->
+                <li class="pergunta">3- Para o item 1 escreve o código css que gera esse efeito do box de borda amarela flutuando na    página. </br>Para o item 2 escreva o código css que corrige esse erro do elemento ficar sobre o botão “comprar”.</li>
+                <!-- Resposta -->
+                <li>
+                    <p><strong>Resposta1: </strong></br>
+                    <b>.box amarelo</b> {</br>
+                        position: fixed;</br>
+                    }</br>
+                    </p>
+                    <p><strong>Resposta2: </strong>
+                    Não consegui captar o contexto, porem se o box vai estar fixo não sei porque aconteceria isso no outro elemento. Só olhando o código para eu dar um veredito.
+                    </p>
+                </li>
+                <hr>
+                  <!-- Quarta questao -->
+                <li class="pergunta">4- Qual a importancia do Progressive Enhancement no desenvolvimento do seu CSS ?</li>
+                <!-- Resposta -->
+                <li>
+                    <p><strong>Resposta:</strong> A vantagem é que você trabalharia a estilização primeiramente pensando em navegadores mais antigos não afetando assim a usabilidade para esses, sequenciamente, conforme for subindo o nivel dos navegadores poderão ser adicionado novos estilos suportados pelos mesmos. A estrutura de escrita do CSS permite você fazer isso gradativamente, sem afetar os estilos anteriores.</p>
+                </li>
+                <hr>
+            </ul>
+        </section>
+    </section>
+    <!-- Fim Secao do CSS -->
+
+    <!-- Secao do JS -->
+    <section id="js" class="text-center secao container">
+        <h1>JS</h1>
+        <hr>
+        <section class="questao">
+            <ul>
+                <!-- Primeira questao -->
+                <li class="pergunta">1- Escreve um código jQuery que: após carregar a árvore DOM altere o alt de todas as imagens da página para “alt de teste”. </li>
+                <!-- Resposta -->
+                <li class="resposta">
+                    <p>$(document).ready(function(){</br>
+                        $("img").attr("alt", "alt de teste");</br>
+                    });
+                    </p>
+                </li>
+                <hr>
+                <!-- Segunda questao -->
+                <li class="pergunta">2- Faça uma requisição ajax usando jQuery para a seguinte URL http://www.exemplo.com/json esta URL irá retornar um objeto “pessoa” contendo alguns itens, imprima esses itens no console do Firebug.
+                </li>
+                <!-- Resposta -->
+                <li>
+                    <p><strong>Resposta: </strong>Não trabalhei com Ajax ainda</p>
+                </li>
+                <hr>
+                <!-- Terceira questao -->
+                <li class="pergunta">3- Qual problema você já resolveu com JS / jQuery que você julga como a melhor solução da sua carreira. Descreva-o.</li>
+                <!-- Resposta -->
+                <li>
+                    <p><strong>Resposta1: </strong>Não tive problemas relevantes com o que já implantei, porem não tenho tanta experiencia em coisas muito complexas, somente trabalhei com plugins e eventos mais tranquilos.</p>
+                </li>
+                <hr>
+                  <!-- Quarta questao -->
+                <li class="pergunta">4- Quais as desvantagens de se utilizar jQuery em um projeto ?</li>
+                <!-- Resposta -->
+                <li>
+                    <p><strong>Resposta:</strong> Normalmente as vantagens são muitas, porem, temos desvantagens quando o programador começa a acresentar dezenas de plugins em um projeto sem antes estuda-lo, para assim não sobrecarregar um projeto. Em alguns casos, podemos extrair somente a função ou funcinalidade que precisamos e não precisando de um pacote inteiro do plugin.</p>
+                </li>
+                <hr>
+            </ul>
+        </section>
+    </section>
+    <!-- Fim Secao do JS-->
+
+     <!-- Secao do SOBRE -->
+    <section id="sobre" class="text-center secao container">
+        <h1>Sobre</h1>
+        <hr>
+        <section class="questao">
+            <ul>
+                <!-- Primeira questao -->
+                <li class="pergunta">1- Conte-me qual situação te fez sentir-se responsável pelos resultados, sejam eles bons ou ruins. Se pudesse mudar o passado faria algo diferente?
+                 </li>
+                <!-- Resposta -->
+                <li class="resposta">
+                    <p>Em uma ocasição na agencia onde eu trabalhei, desenvolvi uma pagina que deveria ser estática, somente para mostrar um empreendimento, um conteudo bacana fixo no centro da tela. No final do dia chegou meu chefe e incluiu mudanças drasticas no projeto, inclusive MOBILE, o que acabou fazendo com que eu virasse a noite na agencia para poder concluir. Porem ao final foi gratificante ver o trabalho concluido. Nesse caso não tinha nada que eu pudesse fazer, pois foi uma mudança em cima da hora. Somente destaquei que precisavamos nos organizar melhor para que isso não fosse frequente.</p>
+                </li>
+                <hr>
+                <!-- Segunda questao -->
+                <li class="pergunta">2- Conte-me o que já lhe ocorreu em um dia atípico (fora de comum) em suas experiências de trabalho anteriores? Você gerou alguma solução? Qual?
+                </li>
+                <!-- Resposta -->
+                <li>
+                    <p><strong>Resposta: </strong>Na ultima agencia onde trabalhei estavamos com problemas de outra pessoa alterar seu projeto e quebrar layout ou parar funcionalidades. Sugeri utilizarmos um versionador, no caso GIT. Porem não conseguimos seguir com o projeto pois fui desligado da agencia.</p>
+                </li>
+                <hr>
+                <!-- Terceira questao -->
+                <li class="pergunta">3- Conte-me sobre seus objetivos profissionais e o como pretende atingi-los.</li>
+                <!-- Resposta -->
+                <li>
+                    <p><strong>Resposta1: </strong>Tenho o objetivo de me tornar o melhor possivel na área de Front-end, continuar estudando cada vez mais. Tenho muita vontade de poder ajudar as pessoas que estão iniciando na área, pretendo estudar muito para conseguir dar palestras sobre Front-end futuramente.</p>
+                    <hr>
+                    <h3>Estou estudando os temas abaixo, um pouco de cada diariamente, porem estou dando prioridade na ordem:</h3>
+                    <ul>
+                        <li>JavaScript</li>
+                        <li>Less</li>
+                        <li>Wordpress</li>
+                        <li>jQuery</li>
+                        <li>Grunt</li>
+                        <li>Acessibilidade</li>
+                    </ul>
+                </li>
+                <hr>
+            </ul>
+        </section>
+    </section>
+    <!-- Fim Secao do SOBRE -->
+
+    <!-- SCRIPTS -->
+    <script>window.jQuery || document.write('<script src="assets/js/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
+
